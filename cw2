@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AISD_cw2
+{
+    internal class NodeL
+    {
+        public NodeL n;
+        public NodeL p;
+        public int data;
+    }
+}
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AISD_cw2
+{
+    internal class List
+    {
+        public NodeL head;
+        public NodeL tail;
+        public int count;
+
+        public void AddFirst(int liczba)
+        {
+
+
+        }
+        public void AddLast(int liczba)
+        {
+            var temp = new NodeL(7);
+
+            temp.p = this.tail;
+
+        }
+
+    }
+}
