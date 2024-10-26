@@ -45,6 +45,7 @@ namespace AISD_cw2
 
             tmp.p = this.tail;
             this.tail.n = tmp;
+            this.count++;
 
         }
 
